@@ -1,0 +1,22 @@
+# Core dependencies
+pytest==7.0.0                # Testing framework (use the version you need)
+pytest-cov==3.0.0            # Coverage tool to measure test coverage
+
+# Dependency management tools
+pip==24.3.1                  # Latest version of pip
+setuptools==67.0.0           # Build and package management tools
+wheel==0.38.4                # Packaging library (optional, but useful for building wheels)
+
+# Code quality and formatting
+flake8==5.0.4                # Python linter to enforce code style (PEP8)
+black==23.3.0                # Python code formatter (auto format code)
+
+# Optional tools for Docker or deployment (adjust based on your project)
+docker==5.0.3                # Docker SDK for Python (if you're interacting with Docker in your CI)
+twine==4.0.0                 # For uploading packages to PyPI (optional, for CI deploys)
+
+# Example project-specific dependencies (use your actual dependencies here)
+requests==2.25.1             # For making HTTP requests
+flask==2.0.1                 # Web framework (if applicable)
+sqlalchemy==1.4.22           # ORM for database interaction (if applicable)
+pandas==1.3.3                # Data manipulation library (if applicable)
