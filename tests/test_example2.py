@@ -1,7 +1,6 @@
 def test_addition():
-    assert 3 + 1 == 4
+    assert 7 + 1 == 8
 
 
 def test_subtraction():
-    assert 3 - 1 == 2
-    
+    assert 2 - 1 == 1
